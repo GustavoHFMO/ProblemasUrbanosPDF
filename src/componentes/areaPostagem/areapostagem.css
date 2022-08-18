@@ -1,0 +1,8 @@
+.postagens {
+    flex: 18;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+}

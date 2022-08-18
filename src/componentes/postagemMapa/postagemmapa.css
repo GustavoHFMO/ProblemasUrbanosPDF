@@ -1,0 +1,39 @@
+.post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 20px 20px 20px;
+}
+
+.postTitulo {
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.postDecricao {
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 18px;
+    color: black;
+    line-height: 24px;
+    margin-top: 15px;
+    width: 800px;
+    text-align: justify;
+}
+
+.postImg {
+    height: 380px;
+    width: 400px;
+    margin: 0px 10px 0px 10px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+iframe {
+    height: 377px;
+    width: 400px;
+    margin: 0px 10px 0px 10px;
+    object-fit: cover;
+    border-radius: 7px;
+}

@@ -1,0 +1,35 @@
+.topo{
+    background-color: rgba(16, 79, 196, 0.849);
+    height: 100px;
+    width: 100%;
+    position: sticky;
+    top: 5px;
+    display: flex;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif
+    
+}
+.topoLista{
+    display: flex;
+    justify-content: center;
+    margin: 1;
+    padding: 0;
+    list-style: none;
+
+}
+.topoItem{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.topoCentro{
+    flex: 0;
+}
+.topoDireita, .topoEsquerda{
+    flex: 10;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+
+}
